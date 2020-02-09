@@ -1,0 +1,188 @@
+Git Lessons:
+-----------
+GIT helps you track changes in your files.
+Track changes with GIT.
+Source code management(SCM) tool.
+
+GIT Bash
+GIT Gui
+
+Q.How to check the version?
+git --version
+
+GIT Lesson2:
+-----------
+git config --list
+git config --global user.name "name"
+git config --global user.email "email"
+cd ~(Home directory of GIT)
+git config --list
+clear(To clear the screeen)
+
+git config user.eamil
+git config user.name
+
+
+
+Git Project:
+-----------
+pwd(Present working directory)
+cd ~ gives the home directory
+cd ..(go backwards)
+ls(Command list all the folders)
+
+Get all the crap inside the folder usu
+git init(initiallise an empty git repository)
+git log
+git status
+ls -la(to view the hidden files as well)
+
+clear is to clear the screen.
+
+git add .  #Add all changes to the project
+git commit -m "message"
+
+
+Adding Files and the Commit log:
+-------------------------------
+pwd
+git log
+git commit --author="XXXX"
+git status
+
+Adding a file
+
+git add filename
+git commit -m message
+
+on applying the add command the file goes to the staging area.
+
+git status
+git commit -m message
+git log
+
+git status
+git diff
+
+git diff
+git status
+git commit
+
+git --version
+
+View the changes working copy and main files:
+
+git diff
+git status
+git add filename
+
+
+git status
+git diff
+git add .
+git commit -m message
+
+
+Comparing the file in the stagin area with the repository:
+
+git diff --staged
+1.Working copy
+2.Staging
+3.Commit
+
+
+Removing files:
+
+git rm filename
+git status
+git commit -m message
+
+
+How to rename files:
+--------------------
+When we rename files git intrprt as original is deleted and new file is added.
+
+git add newfile
+git rm oldfile
+
+this is the way to rename a file.
+
+git mv second.txt pudding.txt  #This is the way to rename a file
+
+git mv pudding.txt Lovenotes/pudding.txt
+
+git status
+git commit -m message
+
+
+git init
+git remote add name urllink
+git remote -v
+git status
+git commit -m message
+
+
+git add .(All files will be considered)
+
+
+How to commit direct to the repository:
+
+directly to the repository:
+
+git commit -am "Cleaned up the commnets"
+
+
+Get something from repository and make working copy.
+
+git checkout --index.html
+
+git checkout -- index.html
+
+Remove from staging area:
+------------------------
+
+git reset HEAD filename
+ get the file out of the staging area
+
+
+Getting the old versions from the repository:
+
+Git log
+git status
+
+
+git checkout commitnumber --filename
+git status
+
+git commit -am message
+
+Pushing the code to github:
+--------------------------
+
+git push -u repo branch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+git config --global user.name  "Bapan"
+git config --global user.email "b@b.com"
+git config --list
+git help commit
+
+
+How to create a git project?
+
+git init
+pwd
+
+#For getting into the home folder
+cd ~
+
+git config --system --unset credential.helper
+
+
